@@ -1,6 +1,6 @@
 {
-  "name": "react-trello",
-  "version": "2.4.1",
+  "name": "@satya-imaginea/react-trello",
+  "version": "1.0.0",
   "description": "Pluggable components to add a trello like kanban board to your application",
   "main": "dist/index.js",
   "files": [
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/satya-imaginea/react-trello"
+    "url": "git+https://github.com/satya-imaginea/react-trello.git"
   },
   "keywords": [
     "react",
     "trello",
     "board"
   ],
-  "author": "RC, Prakash",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/satya-imaginea/react-trello/issues"
@@ -122,5 +122,8 @@
       "path": "dist/**/*.js",
       "limit": "800 ms"
     }
-  ]
+  ],
+  "directories": {
+    "test": "tests"
+  }
 }
